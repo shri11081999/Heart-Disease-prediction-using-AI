@@ -25,8 +25,6 @@ Welcome to the **Heart Disease Prediction Using Machine Learning** project! This
 
 Heart disease is one of the leading causes of death globally 🌍, and early detection is crucial to saving lives 💓. This project leverages machine learning algorithms to predict heart disease based on various medical features 🧠. The goal is to classify whether a patient has heart disease (1️⃣) or not (0️⃣), using predictive models that can assist healthcare professionals 👩‍⚕️👨‍⚕️.
 
-This project evaluates the performance of different machine learning algorithms including **Logistic Regression**, **K-Nearest Neighbors (KNN)**, and **Random Forest** to determine the most accurate model 📊.
-
 ## 📊 Dataset
 
 We used the **UCI Heart Disease Dataset** 💽, which contains 303 records with 14 attributes (e.g., age, gender, cholesterol level) that can be used to predict the presence of heart disease in a patient 🏥.
@@ -49,27 +47,16 @@ The following machine learning models were implemented and compared:
 
 - **🔹 Logistic Regression**
 - **🔹 K-Nearest Neighbors (KNN)**
+- **🔹 LightGBM Classifier**
 - **🔹 Random Forest Classifier**
+- **🔹 Decision Tree**
+- **🔹 SVM**
+- **🔹 Naive Bayes Classifier**
+- **🔹 AdaBoost Classifier**
+- **🔹 ANN**
+- **🔹 Gradient Boosting (XGBoost)**
 
-After tuning, **Logistic Regression** performed the best with an accuracy of **89%** 🏆.
-
-## 📈 Results
-
-| Model                      | Accuracy 🎯 |
-| --------------------------- | ----------- |
-| Logistic Regression         | 89% 🥇      |
-| Random Forest               | 83% 🥈      |
-| K-Nearest Neighbors         | 75% 🥉      |
-
-Among these, **Logistic Regression** emerged as the most accurate model with an accuracy of **89%**. 🌟
-
-## 📸 Screenshots
-
-Here is a comparison table showing the accuracy of the different machine learning models used in this project:
-
-![Model Comparison](https://via.placeholder.com/800x300.png?text=Insert+Comparison+Table+Screenshot+Here)
-
-*(Replace the placeholder image above with your actual comparison table screenshot)*
+After tuning, **K-Nearest Neighbors** performed the best with an accuracy of **89%** 🏆.
 
 ## 🛠️ Installation
 
@@ -79,3 +66,60 @@ To set up this project locally, follow these steps 🛠️:
    ```bash
    git clone https://github.com/your-username/heart-disease-prediction.git
    cd heart-disease-prediction
+
+🖥️ Usage
+
+1. Run the Jupyter notebook to explore the workflow
+
+1. **Clone the repository:**
+
+   ```bash
+   jupyter notebook "Prediction of Heart disease using machine learning algorithm.ipynb"
+
+2. Modify the notebook or script as needed to perform your analysis 🛠️.
+
+3. Visualize the results using plots and charts 📊
+
+## 📈 Results
+
+| Model                      | Accuracy 🎯 |
+| --------------------------- | ----------- |
+| K-Nearest Neighbors         | 91% 🥇    |
+| LightGBM Classifier         | 86% 🥈    |
+| Logistic Regression         | 85% 🥉    |
+| Random Forest               | 83%       |
+| Decision Tree               | 75%       |
+| SVM                         | 86%       |
+| Naive Bayes Classifier      | 86%       | 
+| AdaBoost Classifier         | 81%       | 
+| ANN                         | 83%       |
+| Gradient Boosting (XGBoost) | 78%       |
+
+Among these, **K-Nearest Neighbors** emerged as the most accurate model with an accuracy of **91%**. 🌟
+
+## 📸 Screenshots
+
+Here is a comparison table showing the accuracy of the different machine learning models used in this project:
+
+![comparison table](https://github.com/user-attachments/assets/9368c3e9-9810-4b25-af64-fb1273445351)
+
+## 📚 Research Publication
+
+For a deeper dive into the methods, results, and analysis, you can read the full research paper:
+
+- **Title**: Prediction of Heart Disease Using Machine Learning Algorithms
+- **Journal**: International Journal for Research in Applied Science & Engineering Technology (IJRASET)
+- **DOI**: [10.22214/ijraset.2022.40768](https://doi.org/10.22214/ijraset.2022.40768)
+- **Link**: [Read the Paper](https://doi.org/10.22214/ijraset.2022.40768)
+
+🎯 Future Scope
+
+🌐 Web Application: This project can be expanded into a web application to make predictions using the trained Logistic Regression model.
+
+📈 Larger Dataset: Using a larger and more diverse dataset could further improve the model’s accuracy and generalizability.
+
+📧 Contact
+For any questions or issues, feel free to reach out via 📬 dixitshriniket976@gmail.com.
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details 📄.
