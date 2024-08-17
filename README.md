@@ -67,7 +67,7 @@ To set up this project locally, follow these steps 🛠️:
    git clone https://github.com/your-username/heart-disease-prediction.git
    cd heart-disease-prediction
 
-🖥️ Usage
+## 🖥️ Usage
 
 1. Run the Jupyter notebook to explore the workflow
 
@@ -112,14 +112,14 @@ For a deeper dive into the methods, results, and analysis, you can read the full
 - **DOI**: [10.22214/ijraset.2022.40768](https://doi.org/10.22214/ijraset.2022.40768)
 - **Link**: [Read the Paper](https://doi.org/10.22214/ijraset.2022.40768)
 
-🎯 Future Scope
+## 🎯 Future Scope
 
 🌐 Web Application: This project can be expanded into a web application to make predictions using the trained Logistic Regression model.
 
 📈 Larger Dataset: Using a larger and more diverse dataset could further improve the model’s accuracy and generalizability.
 
-📧 Contact
+## 📧 Contact
 For any questions or issues, feel free to reach out via 📬 dixitshriniket976@gmail.com.
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details 📄.
