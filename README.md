@@ -64,8 +64,7 @@ To set up this project locally, follow these steps 🛠️:
 
 1. **Clone the repository**:
    ```bash
-  (git clone https://github.com/your-username/heart-disease-prediction.git
-   cd heart-disease-prediction](https://github.com/shri11081999/Heart-Disease-prediction-using-AI.git)
+  https://github.com/shri11081999/Heart-Disease-prediction-using-AI.git
 
 ## 🖥️ Usage
 
