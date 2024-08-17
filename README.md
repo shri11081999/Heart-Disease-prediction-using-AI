@@ -5,7 +5,7 @@
 
 Welcome to the **Heart Disease Prediction Using Machine Learning** project! This repository contains code and research aimed at predicting heart disease using various machine learning algorithms. Early detection can save lives, and this project compares different models to find the most accurate prediction method. 🩺✨
 
-![Heart Disease Prediction](https://via.placeholder.com/800x300.png?text=Heart+Disease+Prediction+Using+ML)
+![sa](https://github.com/user-attachments/assets/39daf173-8b1d-4491-92e8-4a6286b9d47a)
 
 ## 📝 Table of Contents
 - [Introduction](#introduction)
